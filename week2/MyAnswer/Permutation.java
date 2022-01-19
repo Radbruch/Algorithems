@@ -1,21 +1,24 @@
-package week2.MyAnswer;
+package MyAnswer;
+
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
-import java.util.Scanner;
 
 public class Permutation {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         int n = Integer.parseInt(args[0]);
-        RandomizedQueue x = new RandomizedQueue();
-        Scanner in = new Scanner(System.in);
-        while (in.hasNext()) {
-            String nextitem = in.next();
-            x.enqueue(in.next());
+        RandomizedQueue randomDeck = new RandomizedQueue();
+
+        String string;
+        while (!StdIn.isEmpty()) {
+            string = StdIn.readString();
+            randomDeck.enqueue(string);
         }
-        Iterator y = x.iterator();
+        Iterator y = randomDeck.iterator();
         for (int i = 0; i < n; i++){
-            System.out.println(y.next());
+            StdOut.println(y.next());
         }
 
 

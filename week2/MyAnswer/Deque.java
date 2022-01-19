@@ -10,6 +10,7 @@ public class Deque<Item> implements Iterable<Item> {
     private Stuffnode sentinel;
 
 
+
     private class Stuffnode{
         private Item item;
         private Stuffnode next;
@@ -97,9 +98,37 @@ public class Deque<Item> implements Iterable<Item> {
         }
     }
 
+    public Item get(int index) {
+        Stuffnode pointer = sentinel;
+        if (index > size) {
+            throw new IndexOutOfBoundsException("Index out of range");
+        } else {
+            for (int i = 0; i <= index; i++) {
+                pointer = pointer.next;
+            }
+        }
+        return pointer.item;
+
+    }
+
+    public Item remove(int index) {
+        Stuffnode pointer = sentinel;
+        if (index > size) {
+            throw new IndexOutOfBoundsException("Index out of range");
+        } else {
+            for (int i = 0; i <= index; i++) {
+                pointer = pointer.next;
+            }
+            Item olditem = pointer.item;
+            pointer.prev.next = pointer.next;
+            pointer.next.prev = pointer.prev;
+            pointer = null;
+            size--;
+            return olditem;
+        }
+    }
+
     // return an iterator over items in order from front to back
-
-
     private class Itr implements Iterator<Item> {
 
         private int nextNode = 0;
@@ -139,14 +168,19 @@ public class Deque<Item> implements Iterable<Item> {
         x.addFirst(4);
         x.addFirst(3);
         x.addFirst(2);
+        System.out.println(x.get(0));
+        System.out.println(x.get(1));
+        System.out.println(x.get(2));
+        System.out.println(x.get(3));
 
+        x.remove(0);
+        x.remove(2);
+        x.remove(1);
+        x.remove(0);
 
-        x.removeFirst();
-        x.removeFirst();
-        x.removeLast();
-        x.removeLast();
 
         x.addFirst(1);
+
         Iterator y = x.iterator();
         while (y.hasNext()) {
             System.out.println(y.next());

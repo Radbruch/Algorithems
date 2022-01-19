@@ -1,12 +1,97 @@
 package MyAnswer;
 
 
-import java.util.Iterator;
-import java.util.NoSuchElementException;
+import edu.princeton.cs.algs4.In;
+
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomizedQueue<Item> implements Iterable<Item>{
 
+    private Random rand;
+    private Deque<Item> deck;
+
+    // construct an empty randomized queue
+    public RandomizedQueue() {
+        deck = new Deque<>();
+        rand = new Random();
+    }
+
+    // is the randomized queue empty?
+    public boolean isEmpty() {
+        return deck.isEmpty();
+    }
+
+    // return the number of items on the randomized queue
+    public int size() {
+        return deck.size();
+    }
+
+    // add the item
+    public void enqueue(Item item) {
+        deck.addLast(item);
+    }
+
+    // remove and return a random item
+    public Item dequeue() {
+        int index = rand.nextInt(size());
+        return deck.remove(index);
+    }
+
+    // return a random item (but do not remove it)
+    public Item sample() {
+        int index = rand.nextInt(size());
+        return deck.get(index);
+    }
+
+    // return an independent iterator over items in random order
+    public Iterator<Item> iterator() {
+        return new Itr();
+    }
+
+    private class Itr implements Iterator<Item> {
+        private Deque<Integer> indexList = new Deque<>();
+
+        private Itr() {
+            initializeIndex();
+        }
+
+        private void initializeIndex() {
+            for (int i = 0; i < deck.size(); i++) {
+                indexList.addLast(i);
+            }
+        }
+
+        @Override
+        public boolean hasNext() {
+            return !(indexList.size() == 0);
+        }
+
+        @Override
+        public Item next() {
+            int index = rand.nextInt(indexList.size());
+            Item item = deck.get(indexList.get(index));
+            indexList.remove(indexList.get(index));
+            return item;
+        }
+    }
+
+    // unit testing (required)
+    public static void main(String[] args) {
+        RandomizedQueue x = new RandomizedQueue();
+        x.enqueue(3);
+        x.enqueue(4);
+        x.enqueue(5);
+        x.enqueue(6);
+
+
+        Iterator y = x.iterator();
+        while (y.hasNext()) {
+            System.out.println(y.next());
+        }
+    }
+
+/**
     private class Stuffnode{
         private Item item;
         private Stuffnode next;
@@ -158,5 +243,5 @@ public class RandomizedQueue<Item> implements Iterable<Item>{
         while (y.hasNext()) {
             System.out.println(y.next());
         }
-    }
+    }*/
 }
