@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0150dc4-5f17-4147-94e3-0cd87b101a86" name="Changes" comment="" />
+    <list default="true" id="e947d650-cd75-4e34-a89a-be6bdf12a3a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/week1/QuickFindUF.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectId" id="210ZrYaxi6nP9Mtb48iyf5khM3w" />
+  <component name="ProjectId" id="23tpTrxkMh5XLcFZykObH4FA2SB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,46 +18,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="week1" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.PercolationStats">
-    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Percolation" />
-      <module name="Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.PercolationStats" />
+  <component name="RunManager">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.MyAnswer.Deque" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.test" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.MyAnswer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,40 +39,30 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PercolationStats" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Percolation" />
+        <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0150dc4-5f17-4147-94e3-0cd87b101a86" name="Changes" comment="" />
-      <created>1637080164724</created>
+      <changelist id="e947d650-cd75-4e34-a89a-be6bdf12a3a5" name="Changes" comment="" />
+      <created>1642563249620</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637080164724</updated>
-      <workItem from="1637080166183" duration="90000" />
-      <workItem from="1637080294494" duration="1089000" />
-      <workItem from="1637121970531" duration="5048000" />
-      <workItem from="1637219445515" duration="3714000" />
-      <workItem from="1637223843512" duration="3515000" />
-      <workItem from="1637290632231" duration="11560000" />
-      <workItem from="1637399680669" duration="3887000" />
-      <workItem from="1637426536688" duration="660000" />
-      <workItem from="1637467813794" duration="10066000" />
-      <workItem from="1637550747742" duration="13146000" />
-      <workItem from="1637636429356" duration="4079000" />
-      <workItem from="1637646906446" duration="19000" />
-      <workItem from="1637647126764" duration="5625000" />
-      <workItem from="1637676267768" duration="3242000" />
-      <workItem from="1637726270958" duration="1912000" />
-      <workItem from="1637828055567" duration="2363000" />
+      <updated>1642563249620</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week2/MyAnswer/Deque.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
