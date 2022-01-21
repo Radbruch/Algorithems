@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b898d2-d1a3-4df6-8e50-9ac30048bd58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/Deque$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/Deque$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAnswer/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAnswer/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAnswer/MyAnswer.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAnswer/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAnswer/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/RandomizedQueue$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer/RandomizedQueue.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAnswer/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAnswer/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque$Itr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque$Stuffnode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque$Stuffnode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/Deque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/week2/MyAnswer/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/week2/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/week2/MyAnswer/RandomizedQueue$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week2/week2/MyAnswer/RandomizedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/RandomizedQueue$Itr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week2/MyAnswer/RandomizedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week2/MyAnswer/RandomizedQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +36,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libfromalgorithms/algs4.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/queues/RandomizedQueue.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.RandomizedQueue">
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyAnswer.Deque" />
       <module name="week2" />
@@ -96,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.RandomizedQueue" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
@@ -131,11 +120,6 @@
           <url>file://$PROJECT_DIR$/MyAnswer/Deque.java</url>
           <line>166</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyAnswer/RandomizedQueue.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

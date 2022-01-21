@@ -1,4 +1,4 @@
-package MyAnswer;
+
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -98,7 +98,7 @@ public class Deque<Item> implements Iterable<Item> {
         }
     }
 
-    public Item get(int index) {
+    private Item get(int index) {
         Stuffnode pointer = sentinel;
         if (index > size) {
             throw new IndexOutOfBoundsException("Index out of range");
@@ -111,7 +111,7 @@ public class Deque<Item> implements Iterable<Item> {
 
     }
 
-    public Item remove(int index) {
+    private Item remove(int index) {
         Stuffnode pointer = sentinel;
         if (index > size) {
             throw new IndexOutOfBoundsException("Index out of range");
@@ -172,12 +172,6 @@ public class Deque<Item> implements Iterable<Item> {
         System.out.println(x.get(1));
         System.out.println(x.get(2));
         System.out.println(x.get(3));
-
-        x.remove(0);
-        x.remove(2);
-        x.remove(1);
-        x.remove(0);
-
 
         x.addFirst(1);
 

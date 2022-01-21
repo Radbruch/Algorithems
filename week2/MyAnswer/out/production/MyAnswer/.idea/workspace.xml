@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00edd04e-68d3-49a8-b291-c5b4851eddb5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAnswer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAnswer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/week2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/week2/MyAnswer/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue$Itr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23zH0Vhj4qlnaPrLc1mwXBhhylg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algs4.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="MyAnswer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Deque" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00edd04e-68d3-49a8-b291-c5b4851eddb5" name="Changes" comment="" />
+      <created>1642729774368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642729774368</updated>
+    </task>
+    <servers />
+  </component>
+</project>
