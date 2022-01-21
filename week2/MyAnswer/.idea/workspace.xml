@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00edd04e-68d3-49a8-b291-c5b4851eddb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Evaluate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FixedCapacityStackOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedQueueOfStrings$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedQueueOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedStackOfStrings$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedStackOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deque$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deque$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAnswer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAnswer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomizedQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomizedQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/Deque$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/Deque$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/RandomizedQueue$Stuffnode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAnswer/week2/MyAnswer/RandomizedQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResizingArrayQueueOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResizingArrayStackOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/week2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/week2/MyAnswer/RandomizedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
